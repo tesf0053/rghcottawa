@@ -33,7 +33,9 @@ footer{
 .navbar-collapse ul li a{
     color: rgb(0, 0, 0);
 }
-
+.sm-dv{
+    display: none;
+}
 .h1{
     font-size: 3rem;
 }
@@ -57,5 +59,19 @@ footer a{
     iframe{
         width: 300px;
         height: 300px;
+    }
+}
+@media (max-width: 991.98px) { 
+    iframe{
+        display: none;
+    }
+    .col{
+        display: none;
+    }
+    .sm-dv{
+        display: grid;
+    }
+    .col-12{
+        padding-bottom: 10px;
     }
 }
