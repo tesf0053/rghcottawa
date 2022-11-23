@@ -1,0 +1,52 @@
+body{
+    /* background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgb(255, 255, 255);
+}
+.navbar-brand img{
+    max-width: 90px;
+    max-height: 90px;
+}
+.carousel-caption{
+    background-color:rgba(183, 187, 42, 0.662);
+}
+.carousel-caption p ,h1{
+    color: white;
+}
+.carousel-caption h1,h5{
+    font-weight: bolder;
+}
+.card-text{
+    color: black;
+}
+.display-5{
+    color: black;
+}
+.navbar{
+    background-color:rgb(182, 187, 42);
+}
+footer{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.navbar-collapse ul li a{
+    color: rgb(0, 0, 0);
+}
+
+.h1{
+    font-size: 3rem;
+}
+.fa-brands{
+    color: rgb(0, 0, 0);
+}
+button{
+    color: rgb(0, 0, 0);
+}
+footer a{
+    color: black;
+}
+.btn-primary{
+    background-color: rgb(12, 26, 39);
+    color: rgb(255, 255, 255);
+}
